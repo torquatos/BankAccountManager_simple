@@ -32,4 +32,13 @@ A simple system for  managing bank accounts - POO, business logic and financial 
       | --- | --- | --- |
 
   3. Architecture and Fundamentals
+
+      Business Logic is the model and it's separeted of the persistence and the interface (MVC)
+
+     3.1 POO - Object oriented programming
+
+         Model of Classes:
+     
+           a - Client: storage the data of the client (name, id, etc)
+           b - Account: 
   
