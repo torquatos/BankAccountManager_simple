@@ -11,6 +11,7 @@ A simple system for  managing bank accounts - POO, business logic and financial 
 
       Development in phases achieve the essential funtionalities of the MVP(minimum viable product):
 
+      | --- | --- | --- |  
       | Category | Functionality | Details |
       | --- | --- | --- |
       | Creating/Register | Register/Create an account | The creation of an account demands a id-number, name and opening balance |
@@ -24,4 +25,9 @@ A simple system for  managing bank accounts - POO, business logic and financial 
       | operations | withdrawal | withdrawal from the balance amount. It needs to have a factor of verification/validaation for enough balance/source for the required amount in the operation |
       | --- | --- | --- |
       | operations | transfer | stablish movement of amounts between different accounts (send value to another account). It must have the validation/verification for the enough balance to proceed with the operation (factor implemented for the account of origin). It must have a factor of validation/verification for the existence of the account of destiny for the transfer.  |
+      | --- | --- | --- |
+      | account view | --- | --- |
+      | --- | --- | --- |
+      | account view | --- | --- |
+      | --- | --- | --- |
       
