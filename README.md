@@ -21,7 +21,7 @@ A simple system for  managing bank accounts - POO, business logic and financial 
       | --- | --- | --- |
       | operations | deposit | add to the balance ammount |
       | --- | --- | --- |
-      | operations | withdrawal | withdrawal from the balance amount. It needs to have a factor of verification for enough balance/source for the required amount in the operation |
+      | operations | withdrawal | withdrawal from the balance amount. It needs to have a factor of verification/validaation for enough balance/source for the required amount in the operation |
       | --- | --- | --- |
-      | operations | transfer | --- |
+      | operations | transfer | stablish movement of amounts between different accounts (send value to another account). It must have the validation/verification for the enough balance to proceed with the operation (factor implemented for the account of origin). |
       
