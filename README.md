@@ -17,5 +17,11 @@ A simple system for  managing bank accounts - POO, business logic and financial 
       | --- | --- | --- |
       | type of account | current account | implementation of the class as base |
       | --- | --- | --- |
-      | type of account | savings account | implementation of the class with an income logic (simple)/ method for applying income  |
+      | type of account | savings account | implementation of the class with an income logic (simple)/ method for applying income |
+      | --- | --- | --- |
+      | operations | deposit | --- |
+      | --- | --- | --- |
+      | operations | withdrawal | --- |
+      | --- | --- | --- |
+      | operations | transfer | --- |
       
