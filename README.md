@@ -26,8 +26,8 @@ A simple system for  managing bank accounts - POO, business logic and financial 
       | --- | --- | --- |
       | operations | transfer | stablish movement of amounts between different accounts (send value to another account). It must have the validation/verification for the enough balance to proceed with the operation (factor implemented for the account of origin). It must have a factor of validation/verification for the existence of the account of destiny for the transfer.  |
       | --- | --- | --- |
-      | account view | --- | --- |
+      | account view | balance view | --- |
       | --- | --- | --- |
-      | account view | --- | --- |
+      | account view | bank statement | --- |
       | --- | --- | --- |
       
