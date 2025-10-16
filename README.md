@@ -15,6 +15,7 @@ A simple system for  managing bank accounts - POO, business logic and financial 
       | --- | --- | --- |
       | Creating/Register | Register/Create an account | The creation of an account demands a id-number, name and opening balance |
       | --- | --- | --- |
-      | type of account | current account | implementation of the class |
+      | type of account | current account | implementation of the class as base |
       | --- | --- | --- |
+      | type of account | savings account | implementation of the class with an income logic (simple)/ method for applying income  |
       
