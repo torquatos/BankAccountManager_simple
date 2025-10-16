@@ -30,4 +30,6 @@ A simple system for  managing bank accounts - POO, business logic and financial 
       | --- | --- | --- |
       | account view | bank statement | show a timeline based list of the transactions (operations) |
       | --- | --- | --- |
-      
+
+  3. Architecture and Fundamentals
+  
