@@ -19,9 +19,9 @@ A simple system for  managing bank accounts - POO, business logic and financial 
       | --- | --- | --- |
       | type of account | savings account | implementation of the class with an income logic (simple)/ method for applying income |
       | --- | --- | --- |
-      | operations | deposit | --- |
+      | operations | deposit | add to the balance ammount |
       | --- | --- | --- |
-      | operations | withdrawal | --- |
+      | operations | withdrawal | withdrawal from the balance amount. It needs to have a factor of verification for enough balance/source for the required amount in the operation |
       | --- | --- | --- |
       | operations | transfer | --- |
       
