@@ -47,9 +47,14 @@ A simple system for  managing bank accounts - POO, business logic and financial 
 
          Encapsulation:
 
-          All critical attributes must to be PRIVATE and only being possible to be accessed or modified through getters, setter and/or business methods - integrity of the data
+            All critical attributes must to be PRIVATE and only being possible to be accessed or modified through getters, setter and/or business methods - integrity of the data
+
+         Heritage/Polimorfism:
+
+            Treatment and application on specific operations
 
      3.2 Data Structure
+
 
          
   
