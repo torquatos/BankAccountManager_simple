@@ -54,6 +54,8 @@ A simple system for  managing bank accounts - POO, business logic and financial 
             Treatment and application on specific operations
 
      3.2 Data Structure
+
+      Check within the item 4, work better on the aspects of the dara structure and data persistence
      
      3.3 Control of Flow and Validation
 
