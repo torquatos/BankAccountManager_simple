@@ -45,5 +45,11 @@ A simple system for  managing bank accounts - POO, business logic and financial 
                    - the savings account needs to implement  an income-application logic
            d - transactions: this object wll register each aspect of the operation
 
+         Encapsulation:
+
+          All critical attributes must to be PRIVATE and only being possible to be accessed or modified through getters, setter and/or business methods - integrity of the data
+
      3.2 Data Structure
+
+         
   
