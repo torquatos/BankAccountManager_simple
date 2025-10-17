@@ -96,8 +96,8 @@ A simple system for  managing bank accounts - POO, business logic and financial 
            a - Initial configuration: configure the project using springboot - Spring Initializr - with the dependencies : web, jpa, mySqlDriver
            b - modeling and repo: create the classes Account, CurrentAccount, SavingsAccount and Transactions (or operations, verify what is the better naming), create the repository interfaces
            c - service: implementation of the AccountService as the POO logic, together with the validations of balance and the exception treatments for the service
-     
-
+           d - API REST - controller: create the endpoints - AccountController and the GlobalExceptionHandles=r to map the exceptions from the Service to the right HTTP codes of status
+           e - unit tests: write the tests in JUnit/ Mockito to the layer Service, assuring that the logic there is completely correct and robust 
 
          
   
