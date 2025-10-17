@@ -40,5 +40,10 @@ A simple system for  managing bank accounts - POO, business logic and financial 
          Model of Classes:
      
            a - Client: storage the data of the client (name, id, etc)
-           b - Account: 
+           b - Account: parent class. base of the bank account - atributes and methods
+           c - Current account / Savings Account : gets heritage from the Account (b)
+                   - the savings account needs to implement  an income-application logic
+           d - transactions: this object wll register each aspect of the operation
+
+     3.2 Data Structure
   
