@@ -58,6 +58,11 @@ A simple system for  managing bank accounts - POO, business logic and financial 
 
   4. Data Persistence
   5. User Interface
+
+     Priority is on the backend, so it will follow two phases for interface:
+
+         - Initial: MVP - Console: interface using command line (make sure it's working properly, validation and test of the backend)
+         - Final User: A graphic interface, still a simple one - GUI (separation between the view/presenting logic and the business logic) - decide later on the technology / tool for the frontend development 
      
 
 
