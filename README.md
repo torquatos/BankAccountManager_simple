@@ -25,7 +25,7 @@ A simple system for  managing bank accounts - POO, business logic and financial 
     | Tests | JUnit5-Mockito | Assures the service layer and the integrity of the API |
     | --- | --- | --- |
     
-  2 - Scope and Features
+  3 - Scope and Features
 
       Development in phases achieve the essential funtionalities of the MVP(minimum viable product):
 
@@ -49,11 +49,11 @@ A simple system for  managing bank accounts - POO, business logic and financial 
       | account view | bank statement | show a timeline based list of the transactions (operations) |
       | --- | --- | --- |
 
-  3. Architecture and Fundamentals
+  4. Architecture and Fundamentals
 
       Business Logic is the model and it's separeted of the persistence and the interface (MVC)
 
-     3.1 POO - Object oriented programming
+     4.1 POO - Object oriented programming
 
          Model of Classes:
      
@@ -71,11 +71,11 @@ A simple system for  managing bank accounts - POO, business logic and financial 
 
             Treatment and application on specific operations
 
-     3.2 Data Structure
+     4.2 Data Structure
 
       Check within the item 4, work better on the aspects of the dara structure and data persistence
      
-     3.3 Control of Flow and Validation
+     4.3 Control of Flow and Validation
 
           All the operations must to include a entry validation and a status validation
 
@@ -89,6 +89,13 @@ A simple system for  managing bank accounts - POO, business logic and financial 
 
          - Initial: MVP - Console: interface using command line (make sure it's working properly, validation and test of the backend)
          - Final User: A graphic interface, still a simple one - GUI (separation between the view/presenting logic and the business logic) - decide later on the technology / tool for the frontend development 
+
+
+  7. Phases
+
+           a - Initial configuration: configure the project using springboot - Spring Initializr - with the dependencies : web, jpa, mySqlDriver
+           b - modeling and repo: create the classes Account, CurrentAccount, SavingsAccount and Transactions (or operations, verify what is the better naming), create the repository interfaces
+           c - service: implementation of the AccountService as the POO logic, together with the validations of balance and the exception treatments for the service
      
 
 
