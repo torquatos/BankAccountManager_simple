@@ -54,6 +54,11 @@ A simple system for  managing bank accounts - POO, business logic and financial 
             Treatment and application on specific operations
 
      3.2 Data Structure
+     3.3 Control of Flow and Validation
+
+  4. Data Persistence
+  5. User Interface
+     
 
 
          
