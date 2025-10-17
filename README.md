@@ -54,10 +54,16 @@ A simple system for  managing bank accounts - POO, business logic and financial 
             Treatment and application on specific operations
 
      3.2 Data Structure
+     
      3.3 Control of Flow and Validation
 
-  4. Data Persistence
-  5. User Interface
+          All the operations must to include a entry validation and a status validation
+
+               a - Business Validation: implementation of logic of conditions to assure the rules are rightly followed. Once the logic "fails" throw the exception
+               b - Exception treatment: try-catch blocks to deal with unexpected errors - makes the "code" not break and returns a feedback to the user
+
+  5. Data Persistence
+  6. User Interface
 
      Priority is on the backend, so it will follow two phases for interface:
 
