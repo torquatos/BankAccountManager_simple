@@ -10,13 +10,20 @@ A simple system for  managing bank accounts - POO, business logic and financial 
   2 - Technological Stack and Initial Requirements 
 
     | --- | --- | --- |
-    | Component | Technology | Details |
+    | Component | Technology | Detail |
     | --- | --- | --- |
-    | Language | JAVA | POO |
+    | Language | JAVA | POO - Core of the application |
     | --- | --- | --- |
-    | Persistence | MySQL Server | Relational Database - safe and transactional persistency |
+    | Framework | SpringBoot | Spring appllications |
     | --- | --- | --- |
-    | Connectivity | JDBC | --- |
+    | Persistence | SpringData JPA/Hibernate | ORM - object relation mapping - persistence of the Java objects in the SQL |
+    | --- | --- | --- |
+    | DataBank | MySQL | Relational Dadabank |
+    | --- | --- | --- |
+    | API | SpringWeb - REST Controllers | RESTful endpoints |
+    | --- | --- | --- |
+    | Tests | JUnit5-Mockito | Assures the service layer and the integrity of the API |
+    | --- | --- | --- |
     
   2 - Scope and Features
 
